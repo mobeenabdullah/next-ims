@@ -1,0 +1,32 @@
+.dropdown_menu {
+    display: flex;
+    .icon_box {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px;
+        &:hover {
+            background-color: transparent !important;
+          }
+    }
+}
+
+.menu_item_link {
+    & a {
+        color: #141414;
+        text-decoration: none;
+        font-size: 1rem;
+        line-height: 1;
+    }    
+}
+.menu_item_desktop {
+    & a {
+        color: #ffffff;
+    }        
+}
+
+.header_logo_text {
+    & a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

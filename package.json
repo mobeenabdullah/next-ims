@@ -1,0 +1,52 @@
+{
+  "name": "invoice-management-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "cypress open"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.4",
+    "@mui/styled-engine-sc": "^5.10.3",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.58",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-redux": "^7.1.24",
+    "@types/styled-components": "^5.1.26",
+    "axios": "^0.27.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
+    "jwt-decode": "^3.1.2",
+    "next": "12.3.1",
+    "next-redux-wrapper": "^8.0.0",
+    "react": "18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router": "^6.4.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-to-print": "^2.14.7",
+    "sass": "^1.55.0",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.19",
+    "@types/styled-components": "^5.1.26",
+    "cypress": "^10.10.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
